@@ -1,15 +1,3 @@
-import unittest
-
-
-class MyTestCase(unittest.TestCase):
-    def test_something(self):
-        self.assertEqual(True, False)  # add assertion here
-
-
-if __name__ == '__main__':
-    unittest.main()
-
-
 # main.py
 def greet(name):
     return f"Hello, {name}!"
@@ -44,8 +32,4 @@ if __name__ == "__main__":
     user_name = input("Enter your name: ")
     print(greet(user_name))
     number = int(input("Enter a number to calculate its factorial: "))
-    print(f"The factorial of {number} is {factorial(number)}")
-
-
-
-
+    print(f"The factorial of {number} is {factorial(number)}") 
