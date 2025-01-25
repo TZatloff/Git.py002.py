@@ -32,4 +32,17 @@ if __name__ == "__main__":
     user_name = input("Enter your name: ")
     print(greet(user_name))
     number = int(input("Enter a number to calculate its factorial: "))
-    print(f"The factorial of {number} is {factorial(number)}") 
+    print(f"The factorial of {number} is {factorial(number)}")
+    def square(number):
+       return number ** 2
+
+    def square(number):
+      return number ** 2
+
+if __name__ == "__main__":
+    number = int(input("Enter a number to calculate its square: "))
+    print(f"The square of {number} is {square(number)}")
+
+
+
+
