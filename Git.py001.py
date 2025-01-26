@@ -33,3 +33,6 @@ if __name__ == "__main__":
     print(greet(user_name))
     number = int(input("Enter a number to calculate its factorial: "))
     print(f"The factorial of {number} is {factorial(number)}") 
+    
+numbers = list(map(int, input("Enter numbers separated by spaces to calculate their average: ").split()))
+    print(f"The average of the numbers is {average(numbers)}")
